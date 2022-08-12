@@ -16,7 +16,6 @@ router.get('/', function(req, res, next) {
 router.post('/FIDO/register/challenge/fetch', async(req, res, next) => {
   
   const user_id = req.body.user_id;
-  console.log(window.location.host)
   const f2l = new Fido2Lib({
     timeout: 100000,
     rpId: "ec2-13-234-31-27.ap-south-1.compute.amazonaws.com",
