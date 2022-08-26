@@ -7,18 +7,23 @@
     "postinstall": "patch-package"
   },
   "dependencies": {
+    "base64-arraybuffer": "^1.0.2",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
+    "device-detector-js": "^3.0.3",
     "dotenv": "^16.0.1",
+    "eccrypto": "^1.1.6",
     "express": "~4.16.1",
     "fido2-lib": "^3.2.5",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "logger-nodejs": "^1.1.0",
     "mongoose": "^6.5.2",
+    "mongoose-paginate-v2": "^1.7.0",
     "morgan": "~1.9.1",
     "node-mongoose-auth": "^1.0.4",
+    "nodemailer": "^6.7.8",
     "patch-package": "^6.4.7",
     "webauthn": "^0.2.0"
   }
